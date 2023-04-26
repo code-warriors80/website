@@ -9,9 +9,9 @@ const Navbar = () => {
       setNav(!nav)  
     }
   return (
-    <div className=' align-middle flex justify-between mt-7 h-24 max-w-[1240px] px-4  items-cente'>
+    <div className=' align-middle flex justify-between mt-7 h-24 max-w-[1240px] px-4  items-center'>
         {/* <img src={logo} className="w-9 rounded-full" alt="c-w logo"/> */}
-        <h1 className='w-full text-xl mt-4 font-bold'>Code~Warriors</h1>
+        <h1 className='w-full text-xl mr-10 mt-4 font-bold'>Code~Warriors</h1>
         <ul className='hidden text-xl mx-auto md:flex'>
             <li className='p-4'><a href="/" className="mx-3 hover:opacity-80 font-bold duration-150">Home</a></li>
             <li className='p-4'><a href="/" className="mx-3 hover:opacity-80 font-bold duration-150">About </a></li>
