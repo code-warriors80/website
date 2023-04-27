@@ -10,7 +10,7 @@ const Reason = () => {
     <div className="align-middle justify-center pt-28">
         <section className='reason'>
               <h2 className='heading text-center text-3xl md:text-5xl'><img src={robot} alt='' className='animate-bounce w-10' />Top <span>Reason</span></h2>
-              <p className='top text-xs md:text-lg mt-5'>Unify your business data in one simple ecomerce dashboard</p>
+              <p className='top text-xs md:text-lg my-5'>Unify your business data in one simple ecomerce dashboard</p>
 
           <div className='flex justify-center items-center'>
             <div className=' reason-parent flex items-center justify-around py-10 px-5 lg:w-7/12'>

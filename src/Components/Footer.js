@@ -11,7 +11,7 @@ import platform from '../images/platform-1.webp'
 
 const Footer = () => {
   return (
-    <section className='footer bg-gray-100'>
+    <section className='footer'>
                <div className='footer-container'>
                               <div className='footer-parent lg:flex items-center  justify-center md:flex md:items-start md:justify-around flex-wrap py-12'>
                                              <div className='flex items-center justify-center'>
