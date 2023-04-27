@@ -39,10 +39,10 @@ const Footer = () => {
                                              </div>
                               </div>
                </div>
-               <div className='allrights'>
-                              <div className='rights'>
+               <div className='allrights flex items-center justify-center'>
+                              <div className='rights lg:flex lg:items-center lg:justify-between lg:w-9/12'>
                                              <div className='copyrights text-center mb-5'>
-                                                                           <h4>Copyrights @  <span className=' font-bold'>Code-Warriors.</span> All Rights Reserved</h4>
+                                                                           <h4>Copyrights @  <span className='font-bold'>Code-Warriors.</span> All Rights Reserved</h4>
                                              </div>
                                              <div className='socials text-center'>
                                                             <span>1</span>

@@ -1,15 +1,16 @@
-import Landing from "./Components/Landing";
-import Navbar from "./Components/Navbar";
+import './App.css';
 import Boost from './Components/Boost';
+import Footer from './Components/Footer';
+import Navbar from './Components/Navbar';
 import Reason from './Components/Reasons';
-import Footer from "./Components/Footer";
+
 
 function App() {
   return (
-    <div>
-        <Navbar/>
-        <Reason/>
-        <Boost/>
+    <div className="App">
+      <Navbar/>
+      <Reason />
+        < Boost />
         <Footer />
     </div>
   );

@@ -4,70 +4,48 @@ import headimg from '../images/head_img7.png'
 import headimgrocket from '../images/head7_rock.png'
 import head_shape from '../images/head_shape_l.png'
 import myhead from '../images/head_shape_r.png'
-import headline from '../images/line_r.png'
-import { motion } from 'framer-motion'
-
 
 const Landing = () => {
   return (
-               <div className='"container landing'>
-                              <img src={head_shape} alt='' className='img2 absolute top-56 left-0'/>
-                                             <div className='landing-container flex items-center justify-center h-full'>
-                                                            <div className='landing-parent flex items-center justify-center flex-wrap-reverse h-full'>
-                                                                           <div className='landing-text bg-red-300 max-w-[700px]'>
+    <div className='landing-page'>
+                  <img src={head_shape} alt='' className='img2 absolute top-48'/>
+                  <div className='landing-container py-0  px-8 lg:flex lg:items-center lg:justify-center lg:h-11/12'>
 
-                                                                                           <div className='tiny flex items-center'>
-                                                                                                         <img src={headline} alt='' className='line'/>
-                                                                                                         <h5 className='ml-5 font-bold min'>Get Solid Solution</h5>
-                                                                                          </div>
-                                                                                          <h1 className='text-6xl font-bold'>Choose The <span>#01</span> <span>IT Solutions</span></h1>               
-                                                                           </div>
+                          <div className='landing-image pt-20 px-5 w-full flex items-start justify-center lg:hidden'>
+                                      <img src={headimgrocket} alt='' className='rocket absolute animate-bounce right-10 w-3/12'/>
+                                      <img src={headimg} alt='' className='man z-5 md:w-8/12 sm:w-7/12 lg:w-7/12'/>
+                            </div>
 
-                                                                           <div className='landing-image flex items-center justify-center w-5/12 py-36'>
-                                                                                           <motion.img src={headimgrocket} alt='' className='absolute animate-bounce delay-200 duration-500 w-5/5 ml-64 mb-64'/>
-                                                                                          <img src={headimg} alt='' className='man w-9/12' /> 
-                                                                           </div>
-                                                            </div>
-                                             </div>
-                              <img src={myhead} alt='' className='img1 absolute top-20 right-0'/>
-               </div>
+                            <div className='landing-text lg:w-4/12'>
+
+                                    <div className='lilhead text-center lg:text-left'>
+                                          <h5 className='text-sm font-bold text-indigo-500 mt-5 font-semibold'>Get Solid Solution</h5>
+                                    </div>
+
+                                    <h1 className='text-3xl text-center lg:text-left xl:text-7xl font-bold mt-6 text-5xl md:text-6xl text-gray-900'>Choose The <span className='text-gray-300'>#01</span> <span className='it'>IT Solutions</span></h1>
+                                    <div className='mt-4 flex justify-center lg:justify-start'>
+                                        <a href='/' className='tracking-wider font-semibold text-sm uppercase inline-block rounded-lg px-5 py-3 bg-indigo-500 text-white shadow-lg'> Learn More</a>
+                                    </div>
+                            </div>
+
+                            <div className='landing-image pt-10 px-5 flex items-center  lg:justify-center hidden lg:block lg:w-4/12  lg:ml-36'>
+                                    <img src={headimgrocket} alt='' className='rocket absolute animate-bounce lg:right-56'/>
+                                    <img src={headimg} alt='' className='man z-5 md:w-8/12 sm:w-7/12 lg:w-11/12'/>
+                            </div>
+
+                        </div>
+                  <img src={myhead} alt='' className='img1 absolute right-0 top-10'/>
+    </div>
   )
 }
 
 export default Landing
 
-//     <div className='"container landing'>
-//                <img src={head_shape} alt='' className='img2 absolute top-56 left-0'/>
-//                <div className='landing-container'>
-//                               <div className='landing-parent '>
-                                             
-//                                              <motion.div className='landing-text'
-//                                                            initial={{x: '-100vw'}}
-//                                                            animate={{x: 0}}
-//                                                            transition={{delay: 1.5, type: 'spring', stiffness: 100}}>
 
-//                                                             <div className='tiny flex items-center'>
-//                                                                            <img src={headline} alt='' className='line'/>
-//                                                                            <h5 className='ml-5 font-bold min'>Get Solid Solution</h5>
-//                                                             </div>
-//                                                             <h1 className='text-6xl font-bold z-10 leading-1'>Choose The <span>#01</span> <span>IT Solutions</span></h1>
-
-//                                              </motion.div>
-
-//                                              <motion.div className='landing-image'
-//                                                             initial={{opacity: 0}}
-//                                                             animate={{opacity: 1}}
-//                                                             transition={{delay: 1.5, duration: 3}}
-//                                              >
-//                                                             <div className='landing-image-child'>
-
-//                                                             <motion.img src={headimgrocket} alt='' className='absolute animate-bounce delay-200 duration-500'/>
-//                                                             <img src={headimg} alt='' className='man' />
-//                                                             </div>
-
-//                                              </motion.div>
-
-//                               </div>                              
-//                </div>
-//                <img src={myhead} alt='' className='img1 absolute top-20 right-0'/>
-//     </div>
+// screen sizes
+// 'sm': '640px'
+// 'md': '768px'
+// lg: 1024px
+// xl: 1280
+// 2xl: 1536
+//sm:bg-yellow-400 md:bg-green-700 lg:bg-red-500 xl:bg-orange-200 2xl:bg-blue-300

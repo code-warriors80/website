@@ -1,0 +1,37 @@
+.landing-container
+{
+               height: 100vh;
+}
+
+.landing-text h1
+{
+               font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.landing-text h1 span:nth-child(2)
+{
+               -webkit-background-clip: text;
+               -webkit-text-fill-color: transparent;
+               background-image: -webkit-gradient(linear, left top, right top, from(#501e9c), color-stop(30%, #8169f1), color-stop(30%, #8169f1), color-stop(73%, #a44cee), to(#ff847f));
+               background-image: -o-linear-gradient(left, #501e9c 0%, #8169f1 30%, #8169f1 30%, #a44cee 73%, #ff847f 100%);
+               background-image: linear-gradient(to right, #501e9c 0%, #8169f1 30%, #8169f1 30%, #a44cee 73%, #ff847f 100%);
+}
+
+.man
+{
+               z-index: 55;
+               position: relative;
+}
+
+.rocket
+{
+               z-index: 66;
+}
+
+@media screen and (min-width: 1024px) {
+               .landing-text h1
+               {
+                              line-height: 110px;
+               }    
+}
