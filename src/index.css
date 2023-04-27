@@ -6,18 +6,3 @@ body{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
   opacity: 100%;
 }
-
-.profile
-{
-               font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
-               font-weight: 600;     
-               text-decoration: none;
-               border: 2px solid #8169f1;
-               padding: 15px 30px;   
-               border-radius: 40px;
-               text-transform: uppercase;
-}
-
-.profile-button{
-  margin-left: 30%;
-}
