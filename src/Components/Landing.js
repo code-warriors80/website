@@ -7,7 +7,7 @@ import myhead from '../images/head_shape_r.png'
 
 const Landing = () => {
   return (
-    <div className='landing-page pt-10'>
+    <div className='landing-page lg:pt-56 lg:pt-56 pt-20'>
                   <img src={head_shape} alt='' className='img2 absolute top-64'/>
                   <div className='landing-container py-0  px-8 lg:flex lg:items-center lg:justify-center lg:h-11/12'>
 
