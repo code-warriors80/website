@@ -1,13 +1,13 @@
-import Navbar from './Components/Navbar';
-import Landing from './Components/Landing';
-import Reason from './Components/Reasons';
+import Landing from "./Components/Landing";
+import Navbar from "./Components/Navbar";
 import Boost from './Components/Boost';
+import Reason from './Components/Reasons';
 
 function App() {
   return (
-    <div className="App">
+    <div>
         <Navbar/>
-        <Landing />
+        <Landing/>
         <Reason/>
         <Boost/>
     </div>

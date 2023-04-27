@@ -22,7 +22,7 @@
        width: 5%;
 }
 
-@keyframes movement {
+/* @keyframes movement {
        0%
        {
         position: relative;
@@ -33,7 +33,7 @@
               position: relative;
               bottom: 0px;      
        }
-}
+} */
 
 .reason h2 span
 {
@@ -52,7 +52,7 @@
                margin-bottom: 70px;
 }
 
-.reason-container
+/* .reason-container
 {
                display: flex;
                align-items: center;
@@ -147,4 +147,4 @@
 {
                border-left: 2px solid #f1f2fa;
                border-right: 2px solid #f1f2fa;
-}
+} */
