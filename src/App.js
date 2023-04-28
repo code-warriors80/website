@@ -1,6 +1,7 @@
 import './App.css';
 import Boost from './Components/Boost';
 import Footer from './Components/Footer';
+import Hire from './Components/Hire';
 import Landing from './Components/Landing';
 import Navbar from './Components/Navbar';
 import Reason from './Components/Reasons';
@@ -13,6 +14,7 @@ function App() {
       <Landing />
       <Reason />
         < Boost />
+        <Hire />
         <Footer />
     </div>
   );

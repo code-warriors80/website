@@ -1,4 +1,5 @@
 import React from 'react'
+import { BsGithub, BsInstagram, BsFacebook, BsTwitter } from "react-icons/bs";
 
 // style
 import '../Styles/Footer.css'
@@ -28,27 +29,27 @@ const Footer = () => {
                                              </div>
                                             <div className='flex items-center justify-center'>
                                              <div className='subscrie w-64'>
-                                                    <h2 className='text-2xl md:text-4xl text-gray-900 text-center mb-5'>Subscribe</h2>
+                                                    <h2 className='text-2xl md:text-2xl text-gray-900 text-center mb-5'>Subscribe</h2>
                                                     <div className='sub'>
                                                             <input type='text' placeholder='Enter your email here' className='w-full h-12 text-center '/>
                                                     </div>
                                                     
-                                                    <button className='w-full p-3 bg-indigo-500 mt-3 text-white font-bold'>Subscribe</button>
+                                                    <button className='w-full p-3 bg-indigo-500 mt-5 text-white font-bold hover:animate-bounce delay-100'>Subscribe</button>
                                                     <p className='text-center mt-5'>Get the latest special offers</p>
                                              </div>
                                              </div>
                               </div>
                </div>
                <div className='allrights flex items-center justify-center'>
-                              <div className='rights lg:flex lg:items-center lg:justify-between lg:w-9/12'>
+                              <div className='rights lg:flex lg:items-start lg:justify-between flex items-center justify-center flex-wrap pb-10 lg:w-9/12'>
                                              <div className='copyrights text-center mb-5'>
-                                                                           <h4>Copyrights @  <span className='font-bold'>Code-Warriors.</span> All Rights Reserved</h4>
+                                                                           <h4 className='lg:text-36'>Copyrights @  <span className='font-bold'>Code-Warriors.</span> All Rights Reserved</h4>
                                              </div>
-                                             <div className='socials text-center'>
-                                                            <span>1</span>
-                                                             <span>2</span>
-                                                            <span>3</span>
-                                                            <span>4</span>
+                                             <div className='socials flex items-start'>
+                                                            <span><BsGithub /></span>
+                                                             <span>< BsInstagram /></span>
+                                                            <span><BsFacebook /></span>
+                                                            <span><BsTwitter /></span>
                                              </div>
                                </div>
                </div>

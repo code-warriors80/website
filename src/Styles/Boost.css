@@ -6,3 +6,15 @@
                background-image: -o-linear-gradient(left, #501e9c 0%, #8169f1 30%, #8169f1 30%, #a44cee 73%, #ff847f 100%);
                background-image: linear-gradient(to right, #501e9c 0%, #8169f1 30%, #8169f1 30%, #a44cee 73%, #ff847f 100%);
 }
+
+.boost-text h3
+{
+               font-weight: 800;
+               line-height: 70px;
+               font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.boost-text p
+{
+               line-height: 40px;   
+}
