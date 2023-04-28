@@ -10,9 +10,9 @@ const Navbar = () => {
       setNav(!nav)  
     }
   return (
-    <div className='w-full flex items-center fixed py-3 px-10 z-20 bg-white  md:px-24'>
+    <div className='w-full flex items-center fixed py-3 px-10 z-20 bg-slate-50  md:px-24'>
         {/* <img src={logo} className="w-9 rounded-full" alt="c-w logo"/> */}
-        <h1 className='w-full text-xl mr-10 font-bold'>Code~Warriors</h1>
+        <h1 className='w-full text-xl mr-10 font-bold'><span>Code~Warriors</span></h1>
         <ul className='hidden mx-auto mr-64 md:flex'>
             <li className='p-4'><a href="/" className="mx-3 hover:opacity-80 font-bold duration-150">Home</a></li>
             <li className='p-4'><a href="/" className="mx-3 hover:opacity-80 font-bold duration-150">About </a></li>
