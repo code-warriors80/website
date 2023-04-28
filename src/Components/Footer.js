@@ -34,7 +34,7 @@ const Footer = () => {
                                                             <input type='text' placeholder='Enter your email here' className='w-full h-12 text-center '/>
                                                     </div>
                                                     
-                                                    <button className='w-full p-3 bg-indigo-500 mt-5 text-white font-bold hover:animate-bounce delay-100'>Subscribe</button>
+                                                    <button className='w-full p-3 bg-indigo-500 mt-5 text-white font-bold hover:animate-bounce shadow-lg delay-100'>Subscribe</button>
                                                     <p className='text-center mt-5'>Get the latest special offers</p>
                                              </div>
                                              </div>

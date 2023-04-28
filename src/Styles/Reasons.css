@@ -36,5 +36,18 @@
 .reason-parent p
 {
        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-       font-weight: 600;
+}
+
+.reason-parent
+{
+       border-top: 2px solid #f1f2fa;
+       border-bottom: 2px solid #f1f2fa;
+}
+
+@media screen and (max-width: 800px) {
+       .reason-parent
+{
+       border-top: 0px solid #f1f2fa;
+       border-bottom: 0px solid #f1f2fa;
+}
 }
