@@ -1,0 +1,40 @@
+.reason h2
+{
+               text-align: center;
+               font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.heading
+{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+}
+
+.heading span
+{
+       margin-left: 10px;
+}
+
+
+.reason h2 span
+{
+       -webkit-background-clip: text;
+       -webkit-text-fill-color: transparent;
+       background-image: -webkit-gradient(linear, left top, right top, from(#501e9c), color-stop(30%, #8169f1), color-stop(30%, #8169f1), color-stop(73%, #a44cee), to(#ff847f));
+       background-image: -o-linear-gradient(left, #501e9c 0%, #8169f1 30%, #8169f1 30%, #a44cee 73%, #ff847f 100%);
+       background-image: linear-gradient(to right, #501e9c 0%, #8169f1 30%, #8169f1 30%, #a44cee 73%, #ff847f 100%);
+}
+
+.reason .top
+{
+               text-align: center;
+               color: gray;
+               font-weight: 300;
+               margin-bottom: 0px;
+}
+.reason-parent p
+{
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       font-weight: 600;
+}

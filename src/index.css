@@ -6,3 +6,20 @@ body{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
   opacity: 100%;
 }
+
+body
+{
+               overflow-y: scroll;
+}
+
+body::-webkit-scrollbar
+{
+               width: 0;
+}
+
+.heading
+{
+               font-weight: 800;
+               font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* 0608593365 */

@@ -1,0 +1,25 @@
+.footer
+{
+      background: #f1f2fa;
+}
+
+.copyrights h4
+{
+      font-size: 12px;      
+}
+
+.socials span
+{
+      margin:  0 0 0 30px;
+      font-size: 20px;
+}
+
+.subscrie input
+{
+      border-radius: 30px;
+}
+
+.subscrie button
+{
+      border-radius: 30px;
+}

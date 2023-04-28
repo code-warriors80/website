@@ -1,0 +1,20 @@
+.boost-text h3 span
+{
+               -webkit-background-clip: text;
+               -webkit-text-fill-color: transparent;
+               background-image: -webkit-gradient(linear, left top, right top, from(#501e9c), color-stop(30%, #8169f1), color-stop(30%, #8169f1), color-stop(73%, #a44cee), to(#ff847f));
+               background-image: -o-linear-gradient(left, #501e9c 0%, #8169f1 30%, #8169f1 30%, #a44cee 73%, #ff847f 100%);
+               background-image: linear-gradient(to right, #501e9c 0%, #8169f1 30%, #8169f1 30%, #a44cee 73%, #ff847f 100%);
+}
+
+.boost-text h3
+{
+               font-weight: 800;
+               line-height: 70px;
+               font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.boost-text p
+{
+               line-height: 40px;   
+}
