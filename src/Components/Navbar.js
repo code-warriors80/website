@@ -9,15 +9,15 @@ const Navbar = () => {
       setNav(!nav)  
     }
   return (
-    <div className='w-full flex items-center fixed py-3 px-10 z-20 bg-slate-50  md:px-24'>
+    <div className='w-full flex items-center fixed py-3 px-10 z-20 bg-white  md:px-24'>
         {/* <img src={logo} className="w-9 rounded-full" alt="c-w logo"/> */}
-        <h1 className='w-full text-xl mr-10 font-bold'><span>Code~Warriors</span></h1>
-        <ul className='hidden mx-auto mr-64 md:flex'>
+        <h1 className='w-full text-xl font-bold'><span>Code~Warriors</span></h1>
+        <ul className='hidden mx-auto mr-20 md:flex md:flex md:items-center'>
             <li className='p-4'><a href="/" className="mx-3 hover:opacity-80 font-bold duration-150">Home</a></li>
             <li className='p-4'><a href="/" className="mx-3 hover:opacity-80 font-bold duration-150">About </a></li>
             <li className='p-4'><a href="/" className="mx-3 hover:opacity-80 font-bold duration-150">Services</a></li>
             <li className='p-4'><a href="/" className="mx-3 hover:opacity-80 font-bold duration-150">Contact</a></li>
-            <li className='p-4'><a href="/" className="mx-3 hover:opacity-80 font-bold duration-150 absolute right-18 lg:right-36 text-indigo-500">Profile</a></li>
+            <li className='p-4'><a href="/" className="tracking-wider font-semibold text-sm uppercase inline-block rounded-lg px-5 py-3 bg-indigo-500 text-white shadow-lg hover:animate-bounce delay-100">Profile</a></li>
             {/* <li className='p-4'><a href="/" className="mx-3 hover:opacity-80 duration-150">Blog</a></li> */}
         </ul>
         <div onClick={handleNav} className='block md:hidden '>
