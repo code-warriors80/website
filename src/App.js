@@ -5,6 +5,7 @@ import Hire from './Components/Hire';
 import Landing from './Components/Landing';
 import Navbar from './Components/Navbar';
 import Reason from './Components/Reasons';
+import About from './Components/About';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Landing />
         <Reason />
         <Boost />
+        <About />
         <Hire />
         <Footer />
     </div>
