@@ -26,7 +26,7 @@ const Service = () => {
                               <motion.div ref={carousel} className='carousel' whileTap={{cursor: "grabbing"}}>
                               <motion.div drag="x" dragConstraints={{right: 0, left: -width}} className='service-parent'>
                                              <Zoom>
-                                             <motion.div className='box box-1' >
+                                             <motion.div className='box box-1 shadow-lg' >
                                                             <div className='flex items-center justify-center'><img src={emaildev} alt='' /></div>
                                                             <h3 className='my-3'>Email Marketing</h3>
                                                             <p> Optimize your website on google result with PC Marketing</p>
@@ -34,7 +34,7 @@ const Service = () => {
                                              </Zoom>
 
                                              <Zoom>
-                                             <motion.div className='box box-2'>
+                                             <motion.div className='box box-2 shadow-lg'>
                                                             <div className='flex items-center justify-center'><img src={appdev} alt='' /></div>
                                                             <h3 className='my-3'>App Development</h3>
                                                             <p>Optimize your website on google result with PPC Marketing</p>
@@ -42,7 +42,7 @@ const Service = () => {
                                              </Zoom>
 
                                              <Zoom>
-                                             <motion.div className='box box-3'>
+                                             <motion.div className='box box-3 shadow-lg'>
                                                             <div className='flex items-center justify-center'><img src={webdev} alt='' /></div>
                                                             <h3 className='my-3'>Web Development</h3>
                                                             <p>You can provide the answers that your potential customers are trying to find, so you can become the industery</p>
@@ -50,7 +50,7 @@ const Service = () => {
                                              </Zoom>
 
                                              <Zoom>
-                                                            <motion.div className='box box-4'>
+                                                            <motion.div className='box box-4 shadow-lg'>
                                                                            <div className='flex items-center justify-center'><img src={notificationdev} alt='' /></div>
                                                                            <h3 className='my-3'>Upgrade</h3>
                                                                            <p> Get more website traffic, more customers & more online visibility with powerful SEO services</p>
@@ -58,7 +58,7 @@ const Service = () => {
                                              </Zoom>
 
                                                             <Zoom>
-                                                                           <motion.div className='box box-5'>
+                                                                           <motion.div className='box box-5 shadow-lg'>
                                                                            <div className='flex items-center justify-center'><img src={socialdev} alt='' /></div>
                                                                            <h3 className='my-3'>Debuging</h3>
                                                                            <p> Get more website traffic, more customers & more online visibility with powerful SEO services</p>
