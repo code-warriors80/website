@@ -1,0 +1,48 @@
+.main {
+    --size: 15px;
+    --R: calc(var(--size)*1.28);
+  
+    -webkit-mask:
+      radial-gradient(var(--R) at 50% calc(1.8*var(--size)),#000 99%,#0000 101%) 
+        calc(50% - 2*var(--size)) 0/calc(4*var(--size)) 100%,
+      radial-gradient(var(--R) at 50% calc(-.8*var(--size)),#0000 99%,#000 101%) 
+        50% var(--size)/calc(4*var(--size)) 100% repeat-x;
+    background: #8169f1;
+    maring: 15px;
+    margin-top: 50px;
+  }
+
+  .vector1
+  {
+   animation: moveleft infinite 2s alternate;
+  }
+
+
+  @keyframes moveleft {
+   0%
+   {
+     position: relative;
+     left: 30px;
+   }
+   100%{
+     position: relative;
+     left: 50px;
+   }
+  }
+
+  .vector2
+  {
+   animation: moveright infinite 2s alternate;
+  }
+
+  @keyframes moveright {
+   0%
+   {
+     position: relative;
+     right: 30px;
+   }
+   100%{
+     position: relative;
+     right: 50px;
+   }
+  }

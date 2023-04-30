@@ -1,0 +1,26 @@
+.span{
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: -webkit-gradient(linear, left top, right top, from(#501e9c), color-stop(30%, #8169f1), color-stop(30%, #8169f1), color-stop(73%, #a44cee), to(#ff847f));
+    background-image: -o-linear-gradient(left, #501e9c 0%, #8169f1 30%, #8169f1 30%, #a44cee 73%, #ff847f 100%);
+    background-image: linear-gradient(to right, #501e9c 0%, #8169f1 30%, #8169f1 30%, #a44cee 73%, #ff847f 100%);
+}
+
+.ani-img {
+       width: 5%;
+       animation: movement infinite 1s alternate;
+       behavior: initial;
+}
+
+@keyframes movement {
+       0%
+       {
+        position: relative;
+        bottom: 20px;      
+       }
+       100%
+       {
+              position: relative;
+              bottom: 0px;      
+       }
+}
