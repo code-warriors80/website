@@ -17,7 +17,7 @@ const buttonVariants = {
   }
 }
 
-const Landing = () => {
+const Contact = () => {
   return (
     <div className="min-h-screen md:max-w-6xl my-0 mx-auto flex flex-col gap-4 justify-center md:px-10 px-6 md:pt-6 bg-white pt-4 pb-3">
       <div className="flex gap-1 items-center justify-center">
@@ -97,4 +97,4 @@ const Landing = () => {
   );
 };
 
-export default Landing;
+export default Contact;
