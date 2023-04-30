@@ -7,6 +7,7 @@ import Navbar from './Components/Navbar';
 import Reason from './Components/Reasons';
 import About from './Components/About';
 import Service from './Components/Service';
+import Contact from './Components/Contact';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <About />
         <Service />
         <Hire />
+        <Contact />
         <Footer />
     </div>
   );

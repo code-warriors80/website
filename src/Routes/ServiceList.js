@@ -52,13 +52,13 @@ export const services = [
 export const aboutdet = [
                {
                               id: 1,
-                              img: mission,
+                              img: vision,
                               title: 'Our Mission',
                               description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente labore molestias, expedita mollitia quo quos corporis placeat est nesciunt! Quas dicta reiciendis debitis numquam veritatis ex eaque cupiditate quasi? Dolores.'
                },
                {
                               id: 2,
-                              img: vision,
+                              img: mission,
                               title: 'Our Vision',
                               description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente labore molestias, expedita mollitia quo quos corporis placeat est nesciunt! Quas dicta reiciendis debitis numquam veritatis ex eaque cupiditate quasi? Dolores.'
                },

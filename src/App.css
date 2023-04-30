@@ -236,6 +236,18 @@
                background: #8169f1;
 }
 
+/* CONTACT */
+.contact-form input
+{
+       border: 2px solid #f1f2fa;
+}
+
+.contact-form textarea
+{
+       border: 2px solid #f1f2fa;
+       resize: none;
+}
+
 /* FOOTER */
 .footer
 {
