@@ -1,6 +1,5 @@
 import React, {useState} from 'react';
 import {AiOutlineClose,AiOutlineMenu} from 'react-icons/ai'
-import "../Styles/Navbar.css"
 
 const Navbar = () => {
     const [nav, setNav] = useState(false)
@@ -31,10 +30,8 @@ const Navbar = () => {
                   <li className='p-4 border-b  border-slate-100'><a href="/About" className="mx-3 hover:opacity-90 duration-150">About</a></li>
                   <li className='p-4 border-b  border-slate-100'><a href="/Contact" className="mx-3 hover:opacity-90 duration-150">Services</a></li>
                   <li className='p-4 border-b  border-slate-100'><a href="/" className="mx-3 hover:opacity-90 duration-150">Contact</a></li>
+                  <li className='p-4'><a href="/" className="tracking-wider font-semibold text-sm uppercase inline-block rounded-lg px-5 py-3 bg-indigo-500 text-white shadow-lg hover:animate-bounce delay-100">Profile</a></li>
               </ul>
-              <button className=' w-[130px] font-medium my-3 ml-4 px-3  py-2 hover: scale-105 duration-300 profile'>
-                <a href="/">Profile</a>
-              </button>
           </div>
         </div> 
     </div>

@@ -1,5 +1,4 @@
 import React from 'react';
-import '../Styles/Reasons.css';
 import code from '../images/code3d.png';
 import price from '../images/price3d.png';
 import message from '../images/message3d.png';
@@ -11,7 +10,7 @@ const Reason = () => {
     <div className=" align-middle justify-center pt-28">
         <section className='reason'>
             <Zoom><h2 className='heading text-center text-3xl lg:text-5xl'><img src={robot} alt='' className='animate-bounce w-10 lg:w-16' />Top <span>Reason</span></h2></Zoom>
-            <Zoom><p className='mt-5 px-5 text-center text-sm lg:text-sm font-thin lg:pb-10 text-gray-400'>Unify your business data in one simple ecomerce dashboard</p></Zoom>
+            <Zoom><p className='heading-p mt-5 px-5 text-center text-sm lg:text-sm font-thin lg:pb-10 text-gray-400'>Unify your business data in one simple ecomerce dashboard</p></Zoom>
 
           <div className=' flex items-center justify-center'>
               <div className='reason-parent w-11/12 lg:w-7/12 flex items-center justify-between lg:justify-between py-10'>

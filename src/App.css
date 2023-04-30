@@ -1,0 +1,264 @@
+/* NAVBAR */
+.nav
+{
+               padding-top: 20px;
+               font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+
+.profile
+{
+               font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+               font-weight: 600;     
+               text-decoration: none;
+               border: 2px solid #8169f1;
+               padding: 15px 30px;   
+               border-radius: 40px;
+               text-transform: uppercase;
+}
+
+
+/* LANDING */
+.landing-text h1
+{
+               font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.landing-text h1 span:nth-child(2)
+{
+               -webkit-background-clip: text;
+               -webkit-text-fill-color: transparent;
+               background-image: -webkit-gradient(linear, left top, right top, from(#501e9c), color-stop(30%, #8169f1), color-stop(30%, #8169f1), color-stop(73%, #a44cee), to(#ff847f));
+               background-image: -o-linear-gradient(left, #501e9c 0%, #8169f1 30%, #8169f1 30%, #a44cee 73%, #ff847f 100%);
+               background-image: linear-gradient(to right, #501e9c 0%, #8169f1 30%, #8169f1 30%, #a44cee 73%, #ff847f 100%);
+}
+
+.man
+{
+               z-index: 5;
+               position: relative;
+}
+
+.rocket
+{
+               z-index: 6;
+}
+
+@media screen and (min-width: 1024px) {
+               .landing-text h1
+               {
+                              line-height: 110px;
+               }    
+}
+
+
+/* REASON */
+.reason h2
+{
+               text-align: center;
+               font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.heading
+{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+}
+
+.heading span
+{
+       margin-left: 10px;
+}
+
+.reason .top
+{
+               text-align: center;
+               color: gray;
+               font-weight: 300;
+               margin-bottom: 0px;
+}
+.reason-parent p
+{
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.reason-parent
+{
+       border-top: 2px solid #f1f2fa;
+       border-bottom: 2px solid #f1f2fa;
+}
+
+@media screen and (max-width: 800px) {
+       .reason-parent
+{
+       border-top: 0px solid #f1f2fa;
+       border-bottom: 0px solid #f1f2fa;
+}
+}
+
+/* BOOST */
+.boost-text h3 span
+{
+               -webkit-background-clip: text;
+               -webkit-text-fill-color: transparent;
+               background-image: -webkit-gradient(linear, left top, right top, from(#501e9c), color-stop(30%, #8169f1), color-stop(30%, #8169f1), color-stop(73%, #a44cee), to(#ff847f));
+               background-image: -o-linear-gradient(left, #501e9c 0%, #8169f1 30%, #8169f1 30%, #a44cee 73%, #ff847f 100%);
+               background-image: linear-gradient(to right, #501e9c 0%, #8169f1 30%, #8169f1 30%, #a44cee 73%, #ff847f 100%);
+}
+
+.boost-text h3
+{
+               font-weight: 800;
+               line-height: 70px;
+               font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.boost-text p
+{
+               line-height: 40px;   
+}
+
+
+/* ABOUT */
+.about-box
+{
+               background-color: #f1f2fa;
+}
+
+.about-box h3
+{
+               font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;       
+               font-size: 18px;
+               font-weight: 600;
+}
+
+.about-box p
+{
+               padding: 0 20px;
+               color: gray;
+               font-size: 13px;
+}
+
+/* SERVICES */
+.service
+{
+               overflow: hidden;
+               padding-top: 30px;
+}
+
+.service-container
+{
+               display: flex;
+               align-items: center;
+               justify-content: center;
+}
+
+.carousel
+{
+               overflow-x: scroll;
+               cursor: grab;
+               width: 80%;
+}
+
+.carousel::-webkit-scrollbar
+{
+               width: 0;
+}
+
+.service-parent
+{
+               display: flex;
+               align-items: center;
+}
+
+.box
+{
+               text-align: center;
+               background-color: #f1f2fa;
+               padding: 40px 0;
+               min-width: 20rem;
+               border-radius: 30px;
+               margin: 20px;
+}
+
+.box h3
+{
+               font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;       
+               font-size: 18px;
+               font-weight: 600;
+}
+
+.box p
+{
+               padding: 0 20px;
+               color: gray;
+               font-size: 13px;
+}
+
+@media screen and (max-width: 800px) 
+{
+               .service
+               {
+                              overflow: hidden;
+                              padding-top: 0px;
+               }
+
+               .carousel
+               {
+                              overflow-x: scroll;
+                              cursor: grab;
+                              width: 90%;
+               }
+
+               .box
+               {
+                              text-align: center;
+                              background-color: #f1f2fa;
+                              padding: 40px 0;
+                              min-width: 18rem;
+                              border-radius: 30px;
+                              margin: 20px;
+               }
+}
+
+/* HIRE */
+.hire
+{
+               --size: 15px;
+               --R: calc(var(--size)*1.28);
+             
+               -webkit-mask:
+                 radial-gradient(var(--R) at 50% calc(1.8*var(--size)),#000 99%,#0000 101%) 
+                   calc(50% - 2*var(--size)) 0/calc(4*var(--size)) 100%,
+                 radial-gradient(var(--R) at 50% calc(-.8*var(--size)),#0000 99%,#000 101%) 
+                   50% var(--size)/calc(4*var(--size)) 100% repeat-x;
+               background: #8169f1;
+}
+
+/* FOOTER */
+.footer
+{
+      background: #f1f2fa;
+}
+
+.copyrights h4
+{
+      font-size: 12px;      
+}
+
+.socials span
+{
+      margin:  0 0 0 30px;
+      font-size: 20px;
+}
+
+.subscrie input
+{
+      border-radius: 30px;
+}
+
+.subscrie button
+{
+      border-radius: 30px;
+}

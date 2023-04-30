@@ -1,17 +1,14 @@
 import React from 'react'
-import '../Styles/About.css'
 import robot from '../images/hero-shape-2.webp';
 import team from '../images/head.png'
-import vision from '../images/22.png'
-import mission from '../images/23.png'
-import about from '../images/fe4.png'
 import { Zoom } from 'react-reveal'
+import { aboutdet } from '../Routes/ServiceList';
 
 const About = () => {
   return (
     <section className='lg:mb-16'>
             <Zoom><h2 className='heading text-center mt-16 lg:mt-0 text-3xl lg:text-5xl'><img src={robot} alt='' className='animate-bounce w-10 lg:w-16' />About <span>Our Team</span></h2></Zoom>
-            <Zoom><p className='mt-5 px-5 text-center text-sm mb-10 lg:mb-0 lg:text-sm font-thin lg:pb-10 text-gray-400'>What Makes us unique and why should you consider using our services</p></Zoom>
+            <Zoom><p className='heading-p mt-5 px-5 text-center text-sm mb-10 lg:mb-0 lg:text-sm font-thin lg:pb-10 text-gray-400'>What Makes us unique and why should you consider using our services</p></Zoom>
 
               <div>
                 <div className='lg:flex lg:items-center lg:justify-between lg:flex-wrap lg:px-40 lg:py-14 px-5'>
@@ -31,28 +28,15 @@ const About = () => {
 
           <div className='about-container lg:flex lg:items-center lg:justify-center'>
                     <div className='about-parent lg:flex px-5 lg:items-center lg:justify-around lg:w-10/12'>
-                      <Zoom>
-                          <div className='about-box mt-5 lg:mt-5 shadow-lg bg-red-300 lg:w-3/12 lg:mx-7 text-center py-10 px-7'>
-                              <div class='flex align-center justify-center mb-3'><img src={vision} alt='' /></div>
-                              <h3>Our Mission</h3>
-                              <p className='mt-3'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente labore molestias, expedita mollitia quo quos corporis placeat est nesciunt! Quas dicta reiciendis debitis numquam veritatis ex eaque cupiditate quasi? Dolores.</p>
-                          </div>
-                      </Zoom>
-
-                      <Zoom>
-                      <div className='about-box mt-5 lg:mt-5 bg-red-300 shadow-lg lg:w-3/12 lg:mx-7 text-center py-10 px-7'>
-                          <div class='flex align-center justify-center mb-3'><img src={mission} alt='' /></div>
-                          <h3>Our Vision</h3>
-                          <p className='mt-3'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente labore molestias, expedita mollitia quo quos corporis placeat est nesciunt! Quas dicta reiciendis debitis numquam veritatis ex eaque cupiditate quasi? Dolores.</p>
-                      </div>
-                      </Zoom>
-                      <Zoom>
-                      <div className='about-box mt-5 lg:mt-5 bg-red-300 shadow-lg lg:w-3/12 lg:mx-7 text-center py-10 px-7'>
-                          <div class='flex align-center justify-center mb-3'><img src={about} alt='' /></div>
-                          <h3>Our Objective</h3>
-                          <p className='mt-3'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente labore molestias, expedita mollitia quo quos corporis placeat est nesciunt! Quas dicta reiciendis debitis numquam veritatis ex eaque cupiditate quasi? Dolores.</p>
-                      </div>
-                      </Zoom>
+                      {aboutdet.map((abt, i) => {
+                        return (<Zoom key={i}>
+                            <div className='about-box mt-5 lg:mt-5 shadow-lg bg-red-300 lg:w-3/12 lg:mx-7 text-center py-10 px-7'>
+                                <div class='flex align-center justify-center mb-3'><img src={aboutdet[i].img} alt='' /></div>
+                                <h3>{aboutdet[i].title}</h3>
+                                <p className='mt-3'>{aboutdet[i].description}</p>
+                            </div>
+                      </Zoom>)
+                      })}
             </div>
       </div>
     </section>

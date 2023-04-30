@@ -1,5 +1,4 @@
 import React from 'react'
-import '../Styles/Hire.css'
 import vector1 from '../images/vector1.png'
 import vector2 from '../images/vector2.png'
 import { Zoom } from 'react-reveal'

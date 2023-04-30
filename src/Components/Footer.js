@@ -1,9 +1,6 @@
 import React from 'react'
 import { BsGithub, BsInstagram, BsFacebook, BsTwitter } from "react-icons/bs";
 
-// style
-import '../Styles/Footer.css'
-
 // images
 import loaction from '../images/7.png'
 import chat from '../images/4.png'
@@ -21,7 +18,7 @@ const Footer = () => {
                                              <div className='footer-address'>
                                                             <h2 className='text-2xl md:text-2xl text-gray-900 text-center'>Contact For IT Support</h2>
                                                             <div className='myaddresslist'>
-                                                                           <div className='flex items-center justify-center lg:justify-start my-5 lg:text-xl lg:mt-10'><img src={chat} alt='' className='w-5 mr-5'/><p className='text-gray-500'>Contactitec@gmail.com</p></div>
+                                                                           <div className='flex items-center justify-center lg:justify-start my-5 lg:text-xl lg:mt-10'><img src={chat} alt='' className='w-5 mr-5'/><p className='text-gray-500'>Codewarriors02@gmail.com</p></div>
                                                                            <div className='flex items-center justify-center lg:justify-start my-5 lg:text-xl lg:mt-10'><img src={loaction} alt='' className='w-5  mr-5'/>  <p className='text-gray-500'>85 Howord St, Toronto</p></div>
                                                                            <div className='flex items-center justify-center lg:justify-start my-5 lg:text-xl lg:mt-10'><img src={user} alt='' className='w-5 mr-5'/><p className='text-gray-500'> (+234) 07056882004</p></div>                                                               
                                                             </div>
@@ -31,7 +28,7 @@ const Footer = () => {
                                              <div className='subscrie w-64'>
                                                     <h2 className='text-2xl md:text-2xl text-gray-900 text-center mb-5'>Subscribe</h2>
                                                     <div className='sub'>
-                                                            <input type='text' placeholder='Enter your email here' className='w-full h-12 text-center '/>
+                                                            <input type='text' placeholder='Enter Your Email Here' className='w-full h-12 text-center outline-none'/>
                                                     </div>
                                                     
                                                     <button className='w-full p-3 bg-indigo-500 mt-5 text-white font-bold hover:animate-bounce shadow-lg delay-100'>Subscribe</button>

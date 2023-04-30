@@ -32,4 +32,10 @@ body::-webkit-scrollbar
                font-weight: 800;
                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+.heading-p
+{
+  color: gray;
+  font-size: 13px;
+}
 /* 0608593365 */

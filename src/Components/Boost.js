@@ -1,6 +1,5 @@
 import React from 'react'
 import flyer from '../images/superman_3d.png'
-import "../Styles/Boost.css"
 import { Zoom } from 'react-reveal'
 
 const Boost = () => {

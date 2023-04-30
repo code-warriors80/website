@@ -1,5 +1,4 @@
 import React from 'react'
-import '../Styles/Landing.css'
 import headimg from '../images/head_img7.png'
 import head_shape from '../images/head_shape_l.png'
 import myhead from '../images/head_shape_r.png'
