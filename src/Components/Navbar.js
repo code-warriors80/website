@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import {AiOutlineClose,AiOutlineMenu} from 'react-icons/ai'
 import logo from '../images/CUDEEEArtboard 6.png'
+import {motion} from 'framer-motion'
 
 const Navbar = () => {
     const [nav, setNav] = useState(false)
@@ -9,9 +10,9 @@ const Navbar = () => {
       setNav(!nav)  
     }
   return (
-    <div className='w-full lg:h-[100px] h-[90px] flex items-center fixed py-3 px-10 z-20 bg-white  md:px-24'>
+    <div className='w-full lg:h-[100px] h-[90px] flex items-center fixed py-3 px-10 z-20 bg-white  md:px-24 overflow-hidden'>
         {/* <img src={logo} className="w-9 rounded-full" alt="c-w logo"/> */}
-        <h1 className='w-full text-xl font-bold'><span><img  src={logo} alt='' className='w-[100px] lg:w-[160px] lg:relative'/></span></h1>
+        <motion.h1 initial={{y: '100vw'}} animate={{y: 0}} transition={{delay: 1.0, duration: 1 ,type: 'spring', stiffness: 200}}  className='w-full text-xl font-bold'><span><img  src={logo} alt='' className='w-[100px] lg:w-[160px] lg:relative'/></span></motion.h1>
         <ul className='hidden mx-auto mr-20 md:flex md:flex md:items-center'>
             <li className='p-4'><a href="/" className="mx-3 hover:opacity-80 font-bold duration-150">Home</a></li>
             <li className='p-4'><a href="/" className="mx-3 hover:opacity-80 font-bold duration-150">About </a></li>
