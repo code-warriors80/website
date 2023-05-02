@@ -23,3 +23,29 @@
               bottom: 0px;      
        }
 }
+
+.slide-in {
+       left: 20px;
+       animation: slide-in 0.5s ease-in-out;
+     }
+   .slide-out {
+       animation: slide-out 0.5s ease-out;
+     }
+     
+     @keyframes slide-in {
+       from {
+         left: -300px;
+       }
+       to {
+         left: 20px;
+       }
+     }
+   
+     @keyframes slide-out {
+       from {
+         left: 20px;
+       }
+       to {
+         left: -300px;
+       }
+}
