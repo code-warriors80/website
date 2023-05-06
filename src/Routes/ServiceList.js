@@ -54,18 +54,18 @@ export const aboutdet = [
                               id: 1,
                               img: vision,
                               title: 'Our Mission',
-                              description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente labore molestias, expedita mollitia quo quos corporis placeat est nesciunt! Quas dicta reiciendis debitis numquam veritatis ex eaque cupiditate quasi? Dolores.'
+                              description: "Creating digital hub, democratizing tech solutions."
                },
                {
                               id: 2,
                               img: mission,
                               title: 'Our Vision',
-                              description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente labore molestias, expedita mollitia quo quos corporis placeat est nesciunt! Quas dicta reiciendis debitis numquam veritatis ex eaque cupiditate quasi? Dolores.'
+                              description: "Our vision is to carryout researches, designs and develop technological solutions that will help private and public organisations compete with their counterparts globally."
                },
                {
                               id: 3,
                               img: about,
                               title: 'Our Objective',
-                              description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente labore molestias, expedita mollitia quo quos corporis placeat est nesciunt! Quas dicta reiciendis debitis numquam veritatis ex eaque cupiditate quasi? Dolores.'
+                              description: 'Build and develop A-grade enterprise solutions for companies and build teams to manage them.'
                },
 ]
