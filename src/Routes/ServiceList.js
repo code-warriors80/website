@@ -13,20 +13,20 @@ export const services = [
                               id: 1,
                               img: emaildev,
                               title: 'Web Hosting',
-                              description: 'Optimize your website on google result with PC Marketing'
+                              description: ''
 
                },
                {
                               id: 2,
                               img: appdev,
                               title: 'Database Administration',
-                              description: 'Optimize your website on google result with PPC Marketing'
+                              description: ''
                },
                {
                               id: 3,
                               img: webdev,
                               title: 'Web Development',
-                              description: 'You can provide the answers that your potential customers are trying to find, so you can become the industery'
+                              description: ''
                },
                {
                               id: 4,
