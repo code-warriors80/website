@@ -17,6 +17,16 @@ body{
   opacity: 100%;
 }
 
+.error
+{
+  color: white;
+  text-align: center;
+  background-color: #ff847f;
+  padding: 10px 0;
+  margin-bottom: 30px;
+  border-radius: 20px;
+}
+
 body
 {
                overflow-y: scroll;

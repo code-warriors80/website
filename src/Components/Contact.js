@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import robot from "../images/hero-shape-2.webp";
 import world from "../images/world-map.png.webp";
 import location from "../images/7.png";
@@ -7,6 +7,46 @@ import user from "../images/5.png";
 import { Zoom } from "react-reveal";
 
 const Contact = () => {
+
+  const [recipient_email, setEmail] = useState("");
+  const [subject, setSubject] = useState("");
+  const [message, setMessage] = useState("");
+  const [error, setError] = useState(null)
+  const [emptyFields, setEmptyFields] = useState([])
+
+    const submitEmail = async (e) =>
+    {
+        e.preventDefault()
+        const user_message = {recipient_email, subject, message}
+
+        const response = await fetch('/email/sendemails', {
+            method: 'POST',
+            body: JSON.stringify(user_message),
+            headers: {
+                'Content-Type': 'application/json'
+            }
+        })
+        const json = await response.json()
+
+        if(!response.ok)
+        {
+            setTimeout(() => {
+                setError(json.error)
+            }, 100)
+            setEmptyFields(json.emptyFields)
+        }
+
+        if(response.ok)
+        {
+            setEmail('')
+            setSubject('')
+            setMessage('')
+            setError(null)
+            setEmptyFields([])
+            alert('sent')
+        }
+    }
+
   return (
     <section className="align-middle justify-center lg:pt-28">
           <Zoom><h2 className='heading text-center mt-16 lg:mt-0 text-3xl lg:text-5xl'><img src={robot} alt='' className='animate-bounce w-10 lg:w-16' />About <span>Our Team</span></h2></Zoom>
@@ -26,18 +66,19 @@ const Contact = () => {
                   <img src={world} alt="" className="w-5/12 hidden lg:block"/>
               </Zoom>
               <Zoom>
-                  <form className="contact-form w-full lg:w-5/12 px-5">
+                  <form onSubmit={submitEmail} className="contact-form w-full lg:w-5/12 px-5">
+                    {error && <div className="error">{error}</div>}
                       <div className="w-full mb-5 flex items-center justify-between flex-wrap">
-                            <input type="text" placeholder="Name" className="mb-5 lg:mb-0 w-[100%] lg:w-[48%] h-[60px] px-3 border-solid rounded-2xl outline-none"/>
-                            <input type="email" placeholder="Email" className="w-[100%] lg:w-[48%] h-[60px] px-3 rounded-2xl outline-none"/>
+                            <input type="email" placeholder="Email" value={recipient_email} onChange={(e) => {setEmail(e.target.value)}} className='w-[100%] lg:w-[48%] h-[60px] px-3 rounded-2xl outline-none' />
+                            <input type="text" placeholder="Subject" value={subject} onChange={(e) => {setSubject(e.target.value)}} className='w-[100%] lg:w-[48%] h-[60px] px-3 rounded-2xl outline-none'/>                      
                       </div>
 
                       <div className="flex items-center justify-center mb-5">
-                          <input type="text" placeholder="Subject" className="w-full h-[60px] px-3 rounded-2xl outline-none"/>
+
                       </div>
 
                       <div className="flex items-center justify-center mb-5">
-                            <textarea placeholder='Type Your Message' className="w-full h-[250px] lg:h-[300px] p-3 rounded-2xl outline-none"></textarea>
+                            <textarea placeholder='Type Your Message' value={message} onChange={(e) => {setMessage(e.target.value)}} className='w-full h-[250px] lg:h-[300px] p-3 rounded-2xl outline-none'></textarea>
                       </div>
 
                       <button className="'tracking-wider font-semibold text-sm uppercase inline-block rounded-lg px-5 py-3 bg-indigo-500 text-white shadow-lg hover:animate-bounce delay-100">Send Message</button>
