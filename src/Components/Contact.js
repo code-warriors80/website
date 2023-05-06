@@ -40,7 +40,7 @@ const Contact = () => {
             setSubject('')
             setMessage('')
             setError(null)
-            alert('sent')
+            alert('Email Sent Succesfully. Code Warriors will get back to you as soon as possible')
         }
     }
 
