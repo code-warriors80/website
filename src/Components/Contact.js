@@ -12,7 +12,6 @@ const Contact = () => {
   const [subject, setSubject] = useState("");
   const [message, setMessage] = useState("");
   const [error, setError] = useState(null)
-  const [emptyFields, setEmptyFields] = useState([])
 
     const submitEmail = async (e) =>
     {
@@ -33,7 +32,6 @@ const Contact = () => {
             setTimeout(() => {
                 setError(json.error)
             }, 100)
-            setEmptyFields(json.emptyFields)
         }
 
         if(response.ok)
@@ -42,7 +40,6 @@ const Contact = () => {
             setSubject('')
             setMessage('')
             setError(null)
-            setEmptyFields([])
             alert('sent')
         }
     }
