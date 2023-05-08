@@ -10,7 +10,7 @@ const Navbar = () => {
       setNav(!nav)  
     }
   return (
-    <div className='w-full lg:h-[100px] h-[90px] flex items-center fixed py-3 px-10 z-20 bg-white  md:px-24 overflow-hidden'>
+    <div className='w-full lg:h-[100px] h-[90px] flex items-center fixed py-3 px-6 z-20 bg-white  md:px-24 overflow-hidden'>
         {/* <img src={logo} className="w-9 rounded-full" alt="c-w logo"/> */}
         <motion.h1 initial={{y: '100vw'}} animate={{y: 0}} transition={{delay: 1.0, duration: 1 ,type: 'spring', stiffness: 200}}  className='w-full text-xl font-bold'><span><img  src={logo} alt='' className='w-[100px] lg:w-[160px] lg:relative'/></span></motion.h1>
         <ul className='hidden mx-auto mr-20 md:flex md:flex md:items-center'>
