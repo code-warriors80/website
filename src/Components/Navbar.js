@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import {AiOutlineClose,AiOutlineMenu} from 'react-icons/ai'
-import logo from '../images/CUDEEEArtboard 6.png'
+import logo from '../images/logo192.png'
 import {motion} from 'framer-motion'
 
 const Navbar = () => {
