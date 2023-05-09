@@ -112,7 +112,7 @@ const Contact = () => {
                   onChange={(e) => {
                     setEmail(e.target.value);
                   }}
-                  className="w-[100%] lg:w-[48%] h-[60px] px-3 rounded-2xl outline-none"
+                  className="w-[100%] lg:w-[48%] h-[60px] px-3 rounded-2xl my-6 lg:my-0 outline-none"
                 />
                 <input
                   type="text"

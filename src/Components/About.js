@@ -26,7 +26,7 @@ const About = () => {
           </Zoom>
           <Zoom>
             <div className="boost-text w-full lg:w-6/12">
-              <h3 className="text-gray-900 text-center lg:text-left font-extrabold text-4xl lg:text-5xl">
+              <h3 className="text-gray-900 text-center lg:text-left font-extrabold text-3xl  lg:text-5xl">
                 Offering The Best IT Services To <span>Clients</span>
               </h3>
               <p className="mt-5 text-gray-700 text-center lg:text-left lg:text-lg">
