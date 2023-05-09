@@ -67,7 +67,7 @@ const Footer = () => {
 
           <div className="lg:flex lg:items-center lg:justify-between lg:px-52 pb-10">
                 <h4 className="text-center py-5 lg:py-0">
-                      Copyrights @ <span className="font-bold">Code-Warriors.</span> All
+                      Copyrights @ <span className="font-bold text-sm">Code-Warriors.</span> All
                       Rights Reserved
                 </h4>
                 <div className="socials flex items-center justify-center">
