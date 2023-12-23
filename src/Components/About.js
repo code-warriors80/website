@@ -35,16 +35,16 @@ const About = () => {
 
               <div>
                 <h3><span>Our Story</span></h3>
-                <p className="text-sm">Founded in 2022, Code Warriors Tech started as a vision to <span className="font-bold">Innovation and Advancement,</span> <span className="font-bold">Solving a Real-world Problem,</span> <span className="font-bold">Passion for Technology & </span> <span className="font-bold">Desire for Change</span>. Since then, we have grown into a dynamic team of professionals committed to [briefly state your primary goals or objectives].</p>
+                <p className="text-sm">Founded in 2022, Code Warriors Tech started as a vision to <span className="font-bold">Innovation and Advancement,</span> <span className="font-bold">Solving a Real-world Problem,</span> <span className="font-bold">Passion for Technology & </span> <span className="font-bold">Desire for Change</span>. Since then, we have grown into a dynamic team of professionals committed ( to craft innovative solutions to unique challenges).</p>
               </div>
 
               <div>
                   <h3><span>Why Choose Us</span></h3>
-                  <p className="text-sm lg:flex items-center gap-2"><div className="font-bold">Expertise:</div> Our team of skilled professionals brings years of experience in [industry or field].</p>
+                  <p className="text-sm lg:flex items-center gap-2"><div className="font-bold">Expertise:</div> Our team of skilled professionals brings years of experience in (industry or field) to realtime solutions.</p>
                   <p className="text-sm lg:flex items-center gap-2"><div className="font-bold">Innovation:</div> We stay ahead of the curve, embracing the latest technologies to deliver cutting-edge solutions..</p>
-                  <p className="text-sm lg:flex items-center gap-2"><div className="font-bold">Client-Centric Approach:</div> Your success is our priority. We work closely with clients to understand their unique needs..</p>
+                  <p className="text-sm lg:flex items-center gap-2"><div className="font-bold">Client-Centric Approach:</div> Your success is our priority. We work closely with clients to understand their unique needs and craft inovative solutions to solve their unique challenges.</p>
               </div>
-              <div className="mt-4 flex justify-center lg:justify-start pb-10 lg:py-5">
+              {/* <div className="mt-4 flex justify-center lg:justify-start pb-10 lg:py-5">
                 <a
                   href="/"
                   className="tracking-wider font-semibold text-sm uppercase inline-block rounded-lg px-5 py-3 bg-indigo-500 text-white shadow-lg hover:animate-bounce delay-100"
@@ -52,7 +52,7 @@ const About = () => {
                   {" "}
                   Learn More
                 </a>
-              </div>
+              </div> */}
             </div>
           </Zoom>
         </div>

@@ -52,7 +52,7 @@ const Contact = () => {
       </Zoom>
       <Zoom>
         <p className="heading-p mt-5 px-5 text-center text-sm mb-10 lg:mb-0 lg:text-sm font-thin lg:pb-10 text-gray-400">
-          What Makes us unique and why should you consider using our services
+          Feel free to contact us via the provided informations below
         </p>
       </Zoom>
 

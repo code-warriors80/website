@@ -11,8 +11,8 @@ const Reason = () => {
         <section className='reason'>
             <Zoom><h2 className='heading text-center text-3xl lg:text-5xl'><img src={robot} alt='' className='animate-bounce w-10 lg:w-16' />Top <span>Reason</span></h2></Zoom>
             <Zoom>
-            <p className='heading-p mt-5 px-5 text-center text-sm lg:text-sm font-thin lg:pb-10 text-gray-400'>Our team comprises of experts in web development, mobile apps,AI</p>
-              <p className='heading-p mt-5 px-5 text-center text-sm lg:text-sm font-thin lg:pb-10 text-gray-400'>We are your one-stop-shop for all things tech.</p>
+            <p className='heading-p mt-5 px-5 text-center text-sm lg:text-sm font-thin lg:pb-10 text-gray-400'>Our team comprises of experts in web development, mobile apps,AI, and many more.</p>
+            <p className='heading-p px-3 text-center text-sm lg:text-sm font-thin lg:pb-10 text-gray-400'>We are your one-stop-shop for all things tech.</p>
             </Zoom>
 
           <div className=' flex items-center justify-center'>

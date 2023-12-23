@@ -10,7 +10,7 @@ const Boost = () => {
                 <Zoom><h3 className='text-gray-900 font-extrabold text-3xl text-center lg:text-left lg:text-5xl'>Boost Your Business up to a <span className='spn'>High Level</span></h3></Zoom>
                 <Zoom><p className='text-center lg:text-left mt-5 text-sm text-gray-700 lg:text-lg'>
                     Like any great agency, we are only as good as the result we deliver of our recent work.
-                    Our developers are commited to maintaining the highest web standards so that your site will withstand the test of time
+                    We are a dynamic tech startup driven by a passion for cutting-edge solutions, and always pushing the boundaries of what's possible.
                 </p></Zoom>
             </div>
             <Zoom><img src={flyer} alt=''className='w-full lg:w-4/12 py-5 lg:py-5'/></Zoom>

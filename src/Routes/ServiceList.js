@@ -19,13 +19,13 @@ export const services = [
                     id: 2,
                     img: webdev,
                     title: 'App Development',
-                    description: 'Turn your ideas into reality with feature-rich mobile apps for iOS and Android, ensuring user-friendly interfaces and seamless functionality.'
+                    description: 'Make your ideas into reality with feature-rich mobile apps for iOS and Android, ensuring user-friendly interfaces and seamless functionality.'
                 },
                {              
                               id: 3,
                               img: emaildev,
                               title: 'Software Development',
-                              description: 'Turn your vision into reality with our expert team. We create custom, efficient software solutions, ensuring security and a seamless user experience.'
+                              description: 'Transform your vision into reality with our team of skilled professionals. We create custom, efficient software solutions, ensuring security and a seamless user experience.'
 
                },
                {
@@ -60,13 +60,13 @@ export const aboutdet = [
                               id: 1,
                               img: vision,
                               title: 'Our Mission',
-                              description: "Creating digital hub, democratizing tech solutions."
+                              description: "To transform ideas into digital realities and empower businesses to thrive in the digital age."
                },
                {
                               id: 2,
                               img: mission,
                               title: 'Our Vision',
-                              description: "Our vision is to carryout researches, designs and develop technological solutions that will help private and public organisations compete with their counterparts globally."
+                              description: "Our vision is to carryout researches,and develop technological solutions that will help both small and large businesses excel globally."
                },
                {
                               id: 3,

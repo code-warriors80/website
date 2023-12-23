@@ -1,5 +1,5 @@
 import React from "react";
-import { BsGithub, BsInstagram, BsFacebook, BsWhatsapp } from "react-icons/bs";
+import { BsGithub, BsInstagram, BsFacebook} from "react-icons/bs";
 
 // images
 import loaction from "../images/7.png";
@@ -79,9 +79,6 @@ const Footer = () => {
                     </span>
                     <span>
                       <a href="https://www.facebook.com/codewariors02"><BsFacebook /></a>
-                    </span>
-                    <span>
-                      <a href="/whatsapp"><BsWhatsapp /></a>
                     </span>
                     </div>
           </div>
