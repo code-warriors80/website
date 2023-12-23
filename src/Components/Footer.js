@@ -37,13 +37,13 @@ const Footer = () => {
                         </div>
                         <div className="flex items-center justify-center lg:justify-start my-5 lg:text-xl lg:mt-10">
                           <img src={user} alt="" className="w-6 mr-5" />
-                          <p className="text-gray-500 text-sm"> (+234) 08074126841 </p>
+                          <p className="text-gray-500 text-sm"> (+234) 0907 223 3771 </p>
                         </div>
                       </div>
                     </div>
 
                     <div className="flex items-center justify-center">
-                        <div className="subscrie w-64">
+                        <div className="subscrie w-80 lg:w-72">
                           <h2 className="text-2xl md:text-2xl text-gray-900 text-center mb-5">
                             Subscribe
                           </h2>
@@ -71,18 +71,18 @@ const Footer = () => {
                       Rights Reserved
                 </h4>
                 <div className="socials flex items-center justify-center">
-                        <span>
-                          <BsGithub />
-                        </span>
-                        <span>
-                          <BsInstagram />
-                        </span>
-                        <span>
-                          <BsFacebook />
-                        </span>
-                        <span>
-                          <BsWhatsapp />
-                        </span>
+                    <span>
+                      <a href="https://github.com/codewarriors80"><BsGithub /></a>
+                    </span>
+                    <span>
+                      <a href="https://www.instagram.com/code_warriors_team_/"><BsInstagram /></a>
+                    </span>
+                    <span>
+                      <a href="https://www.facebook.com/codewariors02"><BsFacebook /></a>
+                    </span>
+                    <span>
+                      <a href="/whatsapp"><BsWhatsapp /></a>
+                    </span>
                     </div>
           </div>
       </section>

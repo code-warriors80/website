@@ -47,7 +47,7 @@ const Contact = () => {
       <Zoom>
         <h2 className="heading text-center mt-16 lg:mt-0 text-3xl lg:text-5xl">
           <img src={robot} alt="" className="animate-bounce w-10 lg:w-16" />
-          About <span>Our Team</span>
+          Contact <span>Our Team</span>
         </h2>
       </Zoom>
       <Zoom>
@@ -86,7 +86,7 @@ const Contact = () => {
               </div>{" "}
               <p className="text-sm font-thin lg:font-bold mt-3 lg:mt-0">
                 {" "}
-                (+234) 08074126841{" "}
+                (+234) 0907 223 3771{" "}
               </p>
             </div>
           </Zoom>

@@ -9,42 +9,48 @@ import mission from '../images/23.png'
 import about from '../images/fe4.png'
 
 export const services = [
+                    {
+                        id: 1,
+                        img: webdev,
+                        title: 'Web Development',
+                        description: 'Craft a powerful online presence with our responsive and visually appealing websites tailored to your brand.'
+                },
+                {
+                    id: 2,
+                    img: webdev,
+                    title: 'App Development',
+                    description: 'Turn your ideas into reality with feature-rich mobile apps for iOS and Android, ensuring user-friendly interfaces and seamless functionality.'
+                },
                {              
-                              id: 1,
+                              id: 3,
                               img: emaildev,
-                              title: 'Web Hosting',
-                              description: ''
+                              title: 'Software Development',
+                              description: 'Turn your vision into reality with our expert team. We create custom, efficient software solutions, ensuring security and a seamless user experience.'
 
                },
                {
-                              id: 2,
+                              id: 4,
                               img: appdev,
                               title: 'Database Administration',
-                              description: ''
-               },
-               {
-                              id: 3,
-                              img: webdev,
-                              title: 'Web Development',
-                              description: ''
-               },
-               {
-                              id: 4,
-                              img: notificationdev,
-                              title: 'Website Debuging & Upgrade',
-                              description: 'Get more website traffic, more customers & more online visibility with powerful SEO services'
+                              description: 'Streamline data management for optimal security, integrity, and performance.'
                },
                {
                               id: 5,
-                              img: socialdev,
-                              title: 'System Maintainance',
-                              description: 'Get more website traffic, more customers & more online visibility with powerful SEO services'
+                              img: notificationdev,
+                              title: 'Digital Marketing',
+                              description: 'Boost online visibility and engagement with effective digital marketing strategies, including social media campaigns and SEO'
                },
                {
                               id: 6,
+                              img: socialdev,
+                              title: 'Social Media Marketing',
+                              description: "Boost your brand's online presence with strategic social media efforts."
+               },
+               {
+                              id: 7,
                               img: support,
-                              title: 'IT Support',
-                              description: 'Get more website traffic, more customers & more online visibility with powerful SEO services'
+                              title: 'IT Consulting',
+                              description: 'Stay ahead in tech with our IT consulting services, optimizing your infrastructure for performance, security, and efficiency.'
                }
 
 ]
