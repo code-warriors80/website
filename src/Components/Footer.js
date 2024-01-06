@@ -72,7 +72,7 @@ const Footer = () => {
                 </h4>
                 <div className="socials flex items-center justify-center">
                     <span>
-                      <a href="https://github.com/codewarriors80"><BsGithub /></a>
+                      <a href="https://github.com/orgs/code-warriors80"><BsGithub /></a>
                     </span>
                     <span>
                       <a href="https://www.instagram.com/code_warriors_team_/"><BsInstagram /></a>
