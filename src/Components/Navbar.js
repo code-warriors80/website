@@ -14,10 +14,10 @@ const Navbar = () => {
         {/* <img src={logo} className="w-9 rounded-full" alt="c-w logo"/> */}
         <motion.h1 initial={{y: '100vw'}} animate={{y: 0}} transition={{delay: 1.0, duration: 1 ,type: 'spring', stiffness: 200}}  className='w-full text-xl font-bold'><span><img  src={logo} alt='' className='w-[100px] lg:w-[160px] lg:relative'/></span></motion.h1>
         <ul className='hidden mx-auto mr-20 md:flex md:items-center'>
-            <li className='p-4'><a href="/" className="mx-3 hover:opacity-80 font-bold duration-150">Home</a></li>
+            {/* <li className='p-4'><a href="/" className="mx-3 hover:opacity-80 font-bold duration-150">Home</a></li>
             <li className='p-4'><a href="/" className="mx-3 hover:opacity-80 font-bold duration-150">About </a></li>
             <li className='p-4'><a href="/" className="mx-3 hover:opacity-80 font-bold duration-150">Services</a></li>
-            <li className='p-4'><a href="/" className="mx-3 hover:opacity-80 font-bold duration-150">Contact</a></li>
+            <li className='p-4'><a href="/" className="mx-3 hover:opacity-80 font-bold duration-150">Contact</a></li> */}
             <li className='p-4'><a href="/" className="tracking-wider font-semibold text-sm uppercase inline-block rounded-lg px-5 py-3 bg-indigo-500 text-white shadow-lg hover:animate-bounce delay-100">Profile</a></li>
             {/* <li className='p-4'><a href="/" className="mx-3 hover:opacity-80 duration-150">Blog</a></li> */}
         </ul>
@@ -28,10 +28,10 @@ const Navbar = () => {
         {/* <h1 className='w-full text-xl py-2 mt-7 font-bold'>Code~Warriors</h1> */}
           <div className='p-4'>
             <ul className='uppercase p-4 mt-7 block'>
-                  <li className='p-4 border-b border-slate-100'> <a href="/" className="mx-3 hover:opacity-90 duration-150">Home</a></li>
+                  {/* <li className='p-4 border-b border-slate-100'> <a href="/" className="mx-3 hover:opacity-90 duration-150">Home</a></li>
                   <li className='p-4 border-b  border-slate-100'><a href="/About" className="mx-3 hover:opacity-90 duration-150">About</a></li>
                   <li className='p-4 border-b  border-slate-100'><a href="/Contact" className="mx-3 hover:opacity-90 duration-150">Services</a></li>
-                  <li className='p-4 border-b  border-slate-100'><a href="/" className="mx-3 hover:opacity-90 duration-150">Contact</a></li>
+                  <li className='p-4 border-b  border-slate-100'><a href="/" className="mx-3 hover:opacity-90 duration-150">Contact</a></li> */}
                   <li className='p-4'><a href="/" className="tracking-wider font-semibold text-sm uppercase inline-block rounded-lg px-5 py-3 bg-indigo-500 text-white shadow-lg hover:animate-bounce delay-100">Profile</a></li>
               </ul>
           </div>
